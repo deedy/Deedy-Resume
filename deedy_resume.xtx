@@ -20,6 +20,8 @@
 % 2. Figure out a smoother way for the document to flow onto the next page.
 % 3. Move title styling information into the .cls file.
 % 4. Add styling information for a "Projects/Hacks" section.
+% 5. Add location/address information
+% 6. Add a "Last Updated" 
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -27,11 +29,7 @@
 % 1. Overflows onto second page if any column's contents are more than the
 % vertical limit
 % 2. Hacky space on the first bullet point on the second column.
-% 3. Sometimes /renewcommand{\endsubsection} causes warnings, but 
-%  \newxommand{\endsubsection} produced some conflicts.
-% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \documentclass[]{deedy-resume}
 
@@ -80,7 +78,7 @@ Major GPA: 3.94 / 4.0}
 \endsubsection
 
 \subsection{La Martiniere for Boys}
-\location{Graduated May 2011|  Kolkata, India}
+\location{Grad. May 2011|  Kolkata, India}
 \endsubsection
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -125,11 +123,12 @@ Unix Tools and Scripting \\
 \section{Skills}
 \subsection{Programming}
 \location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} JavaScript \textbullet{} Matlab \textbullet{} OCaml \textbullet{} Python \textbullet{} Ruby on Rails \textbullet{} \LaTeX\ \\ 
+Java \textbullet{}   Shell \textbullet{} JavaScript \textbullet{} Matlab \\
+OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
 \location{Over 1000 lines:}
 C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
 \location{Familiar:}
-ActionScript 3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \endsubsection
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
