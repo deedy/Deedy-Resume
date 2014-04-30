@@ -3,18 +3,23 @@ Deedy-Resume
 
 A **one page** , **two asymmetric column** resume template in **XeTeX** that caters to an **undergraduate Computer Science** student, that preferably uses a **Mac** .
 
-Preview
-=========================
+## Motivation
+
+Common LaTeX resume-builders such as **moderncv** and the [**friggeri-cv**](https://github.com/afriggeri/cv) look great if you're okay with a multipage resume with numerous, but usually isn't ideal for making a thorough single-page one. A lot of companies today search resumes based on [keywords]{http://www.businessinsider.com/most-big-companies-have-a-tracking-system-that-scans-your-resume-for-keywords-2012-1} but at the same time require/prefer a one page resume, especially for undergraduates. 
+
+This template attempts to **not look horrible**, allow **detail**, and allow useful **LaTeX templating**.
+
+## Preview
+
 ![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/sample-image.png)
 
-Dependencies
-=========================
+## Dependencies
+
 1. Compiles only with **XeTex**.
 2. Uses fonts that are usually only available to **Mac** users such as Helvetica Neue Light.
 
 
-License
-=========================
+## License
 
 The MIT License (MIT)
 
