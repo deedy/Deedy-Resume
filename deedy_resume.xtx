@@ -1,0 +1,222 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.0 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Move title styling information into the .cls file.
+% 4. Add styling information for a "Projects/Hacks" section.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+% 3. Sometimes /renewcommand{\endsubsection} causes warnings, but 
+%  \newxommand{\endsubsection} produced some conflicts.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-cv}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\par{\centering{\sffamily\fontsize{40pt}{10cm}\selectfont Debarghya \normalfont Das}\\ 
+\vspace{5pt}
+\par\color{headings}\fontspec{Heiti TC Medium}\fontsize{11pt}{14pt}\selectfont \centering{ \urlstyle{same}\url{http://debarghyadas.com}\par
+\href{mailto:dd367@cornell.edu}{dd367@cornell.edu} | 607.379.5733 }
+\vspace{5pt}
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Cornell University}
+\descript{MEng in Computer Science}
+\location{Expected Dec 2014 | Ithaca, NY \\ Cum. GPA: N/A}
+\endsubsection
+
+
+\descript{BS in Computer Science}
+\location{Expected May 2014 | Ithaca, NY}
+Conc. in Software Engineering \\
+College of Engineering \\
+Dean's List (All Semesters) \\
+\location{ Cum. GPA: 3.92 / 4.0 \\
+Major GPA: 3.94 / 4.0}
+\endsubsection
+
+\subsection{La Martiniere for Boys}
+\location{Graduated May 2011|  Kolkata, India}
+\endsubsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Git:// \href{https://github.com/deedydas}{\bf deedydas} \\
+LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
+YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
+Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
+Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
+\endsubsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Advanced Machine Learning \\
+Open Source Software Engineering \\
+Advanced Interactive Graphics \\
+Compilers + Practicum \\
+Cloud Computing \\
+\endsubsection
+
+\subsection{Undergraduate}
+Information Retrieval \\
+Operating Systems \\
+Artificial Intelligence + Practicum \\
+Functional Programming \\
+Computer Graphics + Practicum \\
+{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
+Unix Tools and Scripting \\
+\endsubsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 5000 lines:}
+Java \textbullet{}   Shell \textbullet{} JavaScript \textbullet{} Matlab \textbullet{} OCaml \textbullet{} Python \textbullet{} Ruby on Rails \textbullet{} \LaTeX\ \\ 
+\location{Over 1000 lines:}
+C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
+\location{Familiar:}
+ActionScript 3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+\endsubsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Coursera}
+\descript{| KPCB Fellow + Software Engineering Intern }
+\location{Expected June 2014 – Sep 2014 | Mountain View, CA}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
+\end{tightemize}
+\endsubsection
+
+\runsubsection{Google}
+\descript{| Software Engineering Intern }
+\location{May 2013 – Aug 2013 | Mountain View, CA}
+\begin{tightemize}
+\item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.\item Created a backbone.js-like framework for the Captions editor.\item All code was reviewed, perfected, and pushed to production.\end{tightemize}
+\endsubsection
+
+\runsubsection{Phabricator}
+\descript{| Open Source Contributor \& Team Leader}
+\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+\begin{tightemize}
+\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator, the entire Lipsum application, ported Tokens to different apps, fixed many bugs and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
+\endsubsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Research}
+\runsubsection{Cornell Robot Learning Lab}
+\descript{| Head Undergrad Research}
+\location{Jan 2014 – Present | Ithaca, NY}
+Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+\endsubsection
+
+\runsubsection{Cornell Phonetics Lab}
+\descript{| Head Undergraduate Researcher}
+\location{Mar 2012 – May 2013 | Ithaca, NY}
+Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+\endsubsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{tabular}{rll}
+2014	     & top 52/2500  & KPCB Engineering Fellow\\
+2014	     & 2\textsuperscript{nd} most points  & Google Code Jam, Qualification Round\\
+2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+2013	     & National  & Jump Trading Challenge Finalist\\
+2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+2010     & National & Comp. Soc. of India's National Programming Contest\\
+\end{tabular}
+\endsubsection
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOCIETIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Societies} 
+
+\begin{tabular}{rll}
+2014 	& top 12\%ile    & Tau Beta Pi Engineering Honor Society\\
+2014   & National   & The Global Leadership and Education Forum (tGELF)\\
+2012   &  National  & Golden Key International Honor Society\\
+2012   &  National   & National Society of Collegiate Scholars\\
+\end{tabular}
+\endsubsection
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
