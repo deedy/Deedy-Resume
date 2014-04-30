@@ -1,7 +1,7 @@
 Deedy-Resume
 =========================
 
-A ** one page ** , ** two assymetric column ** resume template in ** XeTeX ** that caters to an **undergraduate Computer Science** student, that preferably uses a ** Mac ** .
+A **one page** , **two assymetric column** resume template in **XeTeX** that caters to an **undergraduate Computer Science** student, that preferably uses a **Mac** .
 
 Preview
 =========================
@@ -10,7 +10,7 @@ Preview
 Dependencies
 =========================
 1. Compiles only with **XeTex**.
-2. Uses fonts that are usually only available to ** Mac ** users such as Helvetica Neue Light.
+2. Uses fonts that are usually only available to **Mac** users such as Helvetica Neue Light.
 
 
 License
