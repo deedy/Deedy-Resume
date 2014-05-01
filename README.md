@@ -21,7 +21,7 @@ This template attempts to **not look horrible**, allow **detail**, be a **single
 ## Availability
 
 1. Original pdf (fonts preserved) - [as an online preview](http://debarghyadas.com/resume/debarghya-das-resume.pdf) and [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/deedy_resume.pdf)
-2. WriteLatex.com (fonts/colors changes) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
+2. WriteLatex.com (fonts/colors changed) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
 
 ## License
 
