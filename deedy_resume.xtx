@@ -6,6 +6,9 @@
 % Original author:
 % Debarghya Das (http://debarghyadas.com)
 %
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
 % IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
 %
 % This template uses several fonts not included with Windows/Linux by
@@ -29,6 +32,7 @@
 % 1. Overflows onto second page if any column's contents are more than the
 % vertical limit
 % 2. Hacky space on the first bullet point on the second column.
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[]{deedy-resume}
