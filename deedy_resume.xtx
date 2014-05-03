@@ -69,7 +69,7 @@
 \subsection{Cornell University}
 \descript{MEng in Computer Science}
 \location{Expected Dec 2014 | Ithaca, NY \\ Cum. GPA: N/A}
-\endsubsection
+\sectionsep
 
 
 \descript{BS in Computer Science}
@@ -79,11 +79,11 @@ College of Engineering \\
 Dean's List (All Semesters) \\
 \location{ Cum. GPA: 3.92 / 4.0 \\
 Major GPA: 3.94 / 4.0}
-\endsubsection
+\sectionsep
 
 \subsection{La Martiniere for Boys}
 \location{Grad. May 2011|  Kolkata, India}
-\endsubsection
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     LINKS
@@ -95,7 +95,7 @@ LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \
 YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
 Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
 Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
-\endsubsection
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
@@ -108,7 +108,7 @@ Open Source Software Engineering \\
 Advanced Interactive Graphics \\
 Compilers + Practicum \\
 Cloud Computing \\
-\endsubsection
+\sectionsep
 
 \subsection{Undergraduate}
 Information Retrieval \\
@@ -118,7 +118,7 @@ Functional Programming \\
 Computer Graphics + Practicum \\
 {\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
 Unix Tools and Scripting \\
-\endsubsection
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -133,7 +133,7 @@ OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\
 C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
 \location{Familiar:}
 AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
-\endsubsection
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -157,21 +157,21 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
 \end{tightemize}
-\endsubsection
+\sectionsep
 
 \runsubsection{Google}
 \descript{| Software Engineering Intern }
 \location{May 2013 – Aug 2013 | Mountain View, CA}
 \begin{tightemize}
 \item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.\item Created a backbone.js-like framework for the Captions editor.\item All code was reviewed, perfected, and pushed to production.\end{tightemize}
-\endsubsection
+\sectionsep
 
 \runsubsection{Phabricator}
 \descript{| Open Source Contributor \& Team Leader}
 \location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
 \begin{tightemize}
 \item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator, the entire Lipsum application, ported Tokens to different apps, fixed many bugs and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
-\endsubsection
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
@@ -182,13 +182,13 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \descript{| Head Undergrad Research}
 \location{Jan 2014 – Present | Ithaca, NY}
 Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
-\endsubsection
+\sectionsep
 
 \runsubsection{Cornell Phonetics Lab}
 \descript{| Head Undergraduate Researcher}
 \location{Mar 2012 – May 2013 | Ithaca, NY}
 Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
-\endsubsection
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
@@ -205,7 +205,7 @@ Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue
 2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
 2010     & National & Comp. Soc. of India's National Programming Contest\\
 \end{tabular}
-\endsubsection
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SOCIETIES
@@ -219,7 +219,7 @@ Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue
 2012   &  National  & Golden Key International Honor Society\\
 2012   &  National   & National Society of Collegiate Scholars\\
 \end{tabular}
-\endsubsection
+\sectionsep
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}

@@ -39,8 +39,8 @@
 
 \newcommand{\location}[1]{\color{headings}\raggedright\scshape\fontspec{Heiti TC Medium}\fontsize{10pt}{12pt}\selectfont {#1\\} \normalfont}
 
-\renewcommand{\endsubsection}[0]{\vspace{8pt}}
+\newcommand{\sectionsep}[0]{\vspace{8pt}}
 
-\renewenvironment{tightemize}{\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}{\end{itemize}\vspace{-\topsep}}
+\newenvironment{tightemize}{\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}{\end{itemize}\vspace{-\topsep}}
 
 \titlespacing{\section}{0pt}{0pt}{0pt}
