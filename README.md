@@ -3,8 +3,9 @@ Deedy-Resume
 
 A **one page** , **two asymmetric column** resume template in **XeTeX** that caters to an **undergraduate Computer Science** student.
 As of **v1.1**, there is an option to choose from two templates:
-1. **MacFonts** - uses fonts native to OSX - ***Helvetica***, ***Helvetica Neue*** (and it's Light and Ultralight versions) and the Chinese fonts ***Heiti SC***, and ***Heiti TC***. The EULA of these fonts prevents distribution on Open Source.
-2. **OpenFonts** - uses free open sourced variants that resemble the above. We use ***Lato*** (and many of its variants) and ***Raleway***.
+
+1. **MacFonts** - uses fonts native to OSX - *Helvetica*, *Helvetica Neue* (and it's Light and Ultralight versions) and the CJK fonts *Heiti SC*, and *Heiti TC*. The EULA of these fonts prevents distribution on Open Source.
+2. **OpenFonts** - uses free open sourced variants that resemble the above. We use *Lato* (and many of its variants) and *Raleway*.
 
 
 ## Motivation
@@ -29,7 +30,7 @@ This template attempts to **not look horrible**, allow **detail**, be a **single
 ## Availability
 
 1. MacFonts version - [as an online preview](http://debarghyadas.com/resume/debarghya-das-resume.pdf) and [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/MacFonts/deedy_resume.pdf)
-2. OpenFonts version - [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/OpenFonts/deedy_resume.pdf)
+2. OpenFonts version - [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/OpenFonts/deedy_resume-openfont.pdf)
 3. WriteLatex.com (fonts/colors changed) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
 
 ## Changelog
