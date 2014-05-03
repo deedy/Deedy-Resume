@@ -15,9 +15,13 @@ This template attempts to **not look horrible**, allow **detail**, be a **single
 
 ## Dependencies
 
-1. Compiles only with **XeTex**.
+1. Compiles only with **XeTeX**.
 2. Uses fonts that are usually only available to **Mac** users such as Helvetica Neue Light.
 
+## Availability
+
+1. Original pdf (fonts preserved) - [as an online preview](http://debarghyadas.com/resume/debarghya-das-resume.pdf) and [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/deedy_resume.pdf)
+2. WriteLatex.com (fonts/colors changed) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
 
 ## License
 
