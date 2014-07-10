@@ -30,6 +30,10 @@
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
 \newcommand{\custombold}[1]{\color{subheadings}\fontspec[Path = fonts/lato/]{Lato-Reg}\selectfont #1 \normalfont}
 
+% Fontawesome support
+\usepackage{fontawesome}
+\newfontfamily{\FA}{FontAwesome Regular}
+
 % Date command
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{1mm}
