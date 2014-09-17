@@ -17,6 +17,7 @@
 \usepackage[UKenglish]{babel}
 \usepackage[UKenglish]{isodate}
 \usepackage{fontspec,xltxtra,xunicode}
+\usepackage{cite}
 
 % Color definitions
 \definecolor{date}{HTML}{666666} 
@@ -33,11 +34,14 @@
 \setlength{\TPHorizModule}{1mm}
 \setlength{\TPVertModule}{1mm}
 \textblockorigin{0mm}{5mm} % start everyth
-\newcommand{\lastupdated}{\begin{textblock}{60}(165,0)
+\newcommand{\lastupdated}{\begin{textblock}{60}(155,0)
 \color{date}\fontspec{Helvetica Neue Light}\fontsize{8pt}{10pt}\selectfont 
 Last Updated on
 \today
 \end{textblock}}
+
+% For no references header on publication list
+\renewcommand\refname{\vskip -1.5cm}
 
 % Name command
 \newcommand{\namesection}[3]{
@@ -76,3 +80,5 @@ Last Updated on
 
 % Bullet Lists with fewer gaps command
 \newenvironment{tightemize}{\vspace{-\topsep}\begin{itemize}\itemsep1pt \parskip0pt \parsep0pt}{\end{itemize}\vspace{-\topsep}}
+
+

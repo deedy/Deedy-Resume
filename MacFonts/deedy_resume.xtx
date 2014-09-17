@@ -80,13 +80,8 @@
 \section{Education} 
 
 \subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Expected Dec 2014 | Ithaca, NY \\ Cum. GPA: N/A}
-\sectionsep
-
-
-\descript{BS in Computer Science}
-\location{Expected May 2014 | Ithaca, NY}
+\descript{MEng + BS in Computer Science}
+\location{Expected Dec 2014 | Ithaca, NY}
 Conc. in Software Engineering \\
 College of Engineering \\
 Dean's List (All Semesters) \\
@@ -121,6 +116,9 @@ Open Source Software Engineering \\
 Advanced Interactive Graphics \\
 Compilers + Practicum \\
 Cloud Computing \\
+Evolutionary Computation \\
+Defending Computer Networks \\
+Machine Learning \\
 \sectionsep
 
 \subsection{Undergraduate}
@@ -140,8 +138,8 @@ Unix Tools and Scripting \\
 \section{Skills}
 \subsection{Programming}
 \location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} JavaScript \textbullet{} Matlab \\
-OCaml \textbullet{} Python \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
+Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
+OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
 \location{Over 1000 lines:}
 C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
 \location{Familiar:}
@@ -169,6 +167,8 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \location{Expected June 2014 – Sep 2014 | Mountain View, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
+\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
+\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
 \end{tightemize}
 \sectionsep
 
@@ -183,7 +183,7 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \descript{| Open Source Contributor \& Team Leader}
 \location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
 \begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator, the entire Lipsum application, ported Tokens to different apps, fixed many bugs and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
+\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -194,13 +194,13 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \runsubsection{Cornell Robot Learning Lab}
 \descript{| Head Undergrad Research}
 \location{Jan 2014 – Present | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
 \sectionsep
 
 \runsubsection{Cornell Phonetics Lab}
 \descript{| Head Undergraduate Researcher}
 \location{Mar 2012 – May 2013 | Ithaca, NY}
-Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -210,7 +210,6 @@ Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue
 \section{Awards} 
 \begin{tabular}{rll}
 2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 2\textsuperscript{nd} most points  & Google Code Jam, Qualification Round\\
 2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
 2013	     & National  & Jump Trading Challenge Finalist\\
 2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
@@ -221,18 +220,14 @@ Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SOCIETIES
+%     PUBLICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Societies} 
-
-\begin{tabular}{rll}
-2014 	& top 12\%ile    & Tau Beta Pi Engineering Honor Society\\
-2014   & National   & The Global Leadership and Education Forum (tGELF)\\
-2012   &  National  & Golden Key International Honor Society\\
-2012   &  National   & National Society of Collegiate Scholars\\
-\end{tabular}
-\sectionsep
+\section{Publications} 
+\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}

@@ -44,7 +44,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\documentclass[]{deedy-resume-openfont}
+\documentclass[letterpaper]{deedy-resume-openfont}
 
 
 \begin{document}
@@ -92,12 +92,12 @@
 Conc. in Software Engineering \\
 College of Engineering \\
 Dean's List (All Semesters) \\
-\location{ Cum. GPA: 3.92 / 4.0 \\
+\location{ Overall GPA: 3.92 / 4.0 \\
 Major GPA: 3.94 / 4.0}
 \sectionsep
 
 \subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
+\location{Grad. May 2011 |  Kolkata, India}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -105,11 +105,11 @@ Major GPA: 3.94 / 4.0}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Github:// \href{https://github.com/deedydas}{\custombold{deedydas}} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\custombold{debarghyadas}} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\custombold{DeedyDash007}} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\custombold{@debarghya\_das}} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\custombold{Debarghya-Das}}
+Github:// \href{https://github.com/deedydas}{\bf{deedydas}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf{debarghyadas}} \\
+YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf{DeedyDash007}} \\
+Twitter://  \href{https://twitter.com/debarghya_das}{\bf{@debarghya\_das}} \\
+Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf{Debarghya-Das}}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -150,14 +150,14 @@ C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \
 AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \sectionsep
 
+
+\end{minipage} 
+\hfill
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     COLUMN TWO
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\end{minipage} 
-\hfill
 \begin{minipage}[t]{0.66\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -210,16 +210,18 @@ Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Awards} 
+
 \begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 2\textsuperscript{nd} most points  & Google Code Jam, Qualification Round\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-2010     & National & Comp. Soc. of India's National Programming Contest\\
+2014	 & top 52/2500 & KPCB Engineering Fellow\\
+2014	 & 2\textsuperscript{nd} most points & Google Code Jam, Qualification Round\\
+2014	 & 1\textsuperscript{st}/50 & Microsoft Coding Competition, Cornell\\
+2013	 & National & Jump Trading Challenge Finalist\\
+2013 & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament \\
+2012 & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+2011 & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+2010 & National & Comp. Soc. of India's National Programming Contest\\
 \end{tabular}
+
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
