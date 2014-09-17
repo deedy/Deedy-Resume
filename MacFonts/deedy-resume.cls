@@ -17,7 +17,10 @@
 \usepackage[UKenglish]{babel}
 \usepackage[UKenglish]{isodate}
 \usepackage{fontspec,xltxtra,xunicode}
+
+% Cite publications
 \usepackage{cite}
+\renewcommand\refname{\vskip -1.5cm}
 
 % Color definitions
 \definecolor{date}{HTML}{666666} 
@@ -39,9 +42,6 @@
 Last Updated on
 \today
 \end{textblock}}
-
-% For no references header on publication list
-\renewcommand\refname{\vskip -1.5cm}
 
 % Name command
 \newcommand{\namesection}[3]{
