@@ -46,7 +46,11 @@
 
 
 \documentclass[]{deedy-resume-openfont}
-
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -61,8 +65,8 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Debarghya}{Das}{ \urlstyle{same}\url{http://debarghyadas.com} \\
-\href{mailto:dd367@cornell.edu}{dd367@cornell.edu} | 607.379.5733
+\namesection{Debarghya}{Das}{ \urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
+\href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -80,13 +84,17 @@
 \section{Education} 
 
 \subsection{Cornell University}
-\descript{MEng + BS in Computer Science}
-\location{Expected Dec 2014 | Ithaca, NY}
-Conc. in Software Engineering \\
+\descript{MEng in Computer Science}
+\location{Dec 2014 | Ithaca, NY}
+\sectionsep
+
+\subsection{Cornell University}
+\descript{BS in Computer Science}
+\location{May 2014 | Ithaca, NY}
 College of Engineering \\
-Dean's List (All Semesters) \\
-\location{ Cum. GPA: 3.92 / 4.0 \\
-Major GPA: 3.94 / 4.0}
+Magna Cum Laude\\
+\location{ Cum. GPA: 3.83 / 4.0 \\
+Major GPA: 3.9 / 4.0}
 \sectionsep
 
 \subsection{La Martiniere for Boys}
@@ -98,12 +106,12 @@ Major GPA: 3.94 / 4.0}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
+Facebook:// \href{https://facebook/dd}{\bf dd} \\
 Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
 LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
 YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
 Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
 Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
@@ -127,9 +135,8 @@ Operating Systems \\
 Artificial Intelligence + Practicum \\
 Functional Programming \\
 Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
+{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
 Unix Tools and Scripting \\
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -161,10 +168,14 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
+\runsubsection{Facebook}
+\descript{| Software Engineer }
+\location{Jan 2015 - Present | New York, NY}
+\sectionsep
 
 \runsubsection{Coursera}
 \descript{| KPCB Fellow + Software Engineering Intern }
-\location{Expected June 2014 – Sep 2014 | Mountain View, CA}
+\location{June 2014 – Sep 2014 | Mountain View, CA}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
 \item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
@@ -176,7 +187,7 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \descript{| Software Engineering Intern }
 \location{May 2013 – Aug 2013 | Mountain View, CA}
 \begin{tightemize}
-\item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.\item Created a backbone.js-like framework for the Captions editor.\item All code was reviewed, perfected, and pushed to production.\end{tightemize}
+\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.\item Created a backbone.js-like framework for the Captions editor.\end{tightemize}
 \sectionsep
 
 \runsubsection{Phabricator}
@@ -192,8 +203,8 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 
 \section{Research}
 \runsubsection{Cornell Robot Learning Lab}
-\descript{| Head Undergrad Research}
-\location{Jan 2014 – Present | Ithaca, NY}
+\descript{| Researcher}
+\location{Jan 2014 – Jan 2015 | Ithaca, NY}
 Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
 \sectionsep
 
@@ -215,7 +226,6 @@ Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-
 2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
 2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
 2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-2010     & National & Comp. Soc. of India's National Programming Contest\\
 \end{tabular}
 \sectionsep
 
@@ -224,6 +234,7 @@ Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Publications} 
+\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
 \bibliographystyle{abbrv}
 \bibliography{publications}
 \nocite{*}

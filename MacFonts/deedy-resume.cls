@@ -43,6 +43,12 @@ Last Updated on
 \today
 \end{textblock}}
 
+\newcommand{\leftdetails}[1]{\begin{textblock}{60}(170,5)
+\color{date}\fontspec{Helvetica Neue Light}\fontsize{8pt}{10pt}\selectfont 
+#1
+\end{textblock}}
+
+
 % Name command
 \newcommand{\namesection}[3]{
 	\centering{
