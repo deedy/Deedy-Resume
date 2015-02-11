@@ -1,7 +1,13 @@
 Deedy-Resume
 =========================
 
-A **one page** , **two asymmetric column** resume template in **XeTeX** that caters to an **undergraduate Computer Science** student, that preferably uses a **Mac** .
+A **one page** , **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
+As of **v1.2**, there is an option to choose from two templates:
+
+1. **MacFonts** - uses fonts native to OSX - *Helvetica*, *Helvetica Neue* (and it's Light and Ultralight versions) and the CJK fonts *Heiti SC*, and *Heiti TC*. The EULA of these fonts prevents distribution on Open Source.
+2. **OpenFonts** - uses free open sourced variants that resemble the above. We use *Lato* (and many of its variants) and *Raleway*.
+
+It is licensed under the Apache License 2.0.
 
 ## Motivation
 
@@ -11,34 +17,61 @@ This template attempts to **not look horrible**, allow **detail**, be a **single
 
 ## Preview
 
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/sample-image.png)
+### OpenFonts
+![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/sample-image.png)
+
+### MacFonts
+![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/MacFonts/sample-image.png)
 
 ## Dependencies
 
-1. Compiles only with **XeTex**.
+1. Compiles only with **XeTeX** and required **BibTex** for compiling publications and the .bib filetype.
 2. Uses fonts that are usually only available to **Mac** users such as Helvetica Neue Light.
 
+## Availability
+
+1. MacFonts version - [as an online preview](http://debarghyadas.com/resume/debarghya-das-resume.pdf) and [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/MacFonts/deedy_resume.pdf)
+2. OpenFonts version - [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/OpenFonts/deedy_resume-openfont.pdf)
+3. **Overleaf**.com (formerly **WriteLatex**.com) (v1 fonts/colors changed) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
+4. **ShareLatex**.com (v1 fonts changes) - [compilable online](https://www.sharelatex.com/templates/cv-or-resume/deedy-resume)
+
+## Changelog
+### v1.2
+ 1. Added publications in place of societies.
+ 2. Collapsed a portion of education.
+ 3. Fixed a bug with alignment of overflowing long last updated dates on the top right. 
+
+### v1.1
+ 1. Fixed several compilation bugs with \renewcommand
+ 2. Got Open-source fonts (Windows/Linux support)
+ 3. Added Last Updated
+ 4. Move Title styling into .sty
+ 5. Commented .sty file.
+
+## TODO
+1. Merge OpenFont and MacFonts as a single sty with options.
+2. Figure out a smoother way for the document to flow onto the next page.
+3. Add styling information for a "Projects/Hacks" section.
+4. Add location/address information
+5. Fix the hacky 'References' omission outside the .cls file in the MacFonts version.
+6. Add various styling and section options and allow for multiple pages smoothly.
+
+## Known Issues:
+1. Overflows onto second page if any column's contents are more than the vertical limit
+2. Hacky space on the first bullet point on the second column.
+3. Hacky redefinition of \refname to omit 'References' text for publications in the MacFonts version.
 
 ## License
+    Copyright 2014 Debarghya Das
 
-The MIT License (MIT)
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-Copyright (c) 2014 Debarghya Das
+       http://www.apache.org/licenses/LICENSE-2.0
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
