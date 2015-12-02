@@ -28,6 +28,10 @@
 \setmainfont[Color=primary, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig}
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
 
+% Fontawesome support
+\usepackage{fontawesome}
+\newfontfamily{\FA}{FontAwesome Regular}
+
 % Date command
 \usepackage[absolute]{textpos}
 \usepackage[UKenglish]{isodate}
