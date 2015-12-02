@@ -10,7 +10,7 @@
 
 % Package Imports
 \usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 
 % Publications
 \usepackage{cite}
