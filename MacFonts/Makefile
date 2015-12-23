@@ -2,7 +2,7 @@
 
 all: deedy_resume.pdf
 
-%.pdf: %.xtx deedy-resume.cls
+%.pdf: %.xtx deedy-resume.cls publications.bib
   xelatex $(*).xtx
   bibtex $(*)
   xelatex $(*).xtx
