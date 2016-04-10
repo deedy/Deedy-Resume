@@ -1,50 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy - One Page Two Column Resume
-% LaTeX Template
-% Version 1.2 (16/9/2014)
-%
-% Original author:
-% Debarghya Das (http://debarghyadas.com)
-%
-% Original repository:
-% https://github.com/deedydas/Deedy-Resume
-%
-% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
-%
-% This template uses several fonts not included with Windows/Linux by
-% default. If you get compilation errors saying a font is missing, find the line
-% on which the font is used and either change it to a font included with your
-% operating system or comment the line out to use the default font.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
  
@@ -55,17 +8,10 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Josh}{Jacobson}{ \urlstyle{same}\url{http://LinkedIn.com/in/JoshMJacobson} \\
-\href{mailto:JoshMJacobson@gmail.com}{JoshMJacobson@gmail.com} | 303.261.6113
+\namesection{Josh}{Jacobson}{\href{mailto:JoshMJacobson@gmail.com}{JoshMJacobson@gmail.com} | 303.261.6113  |  \urlstyle{same}\url{LinkedIn.com/in/JoshMJacobson}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -84,55 +30,36 @@
 
 \subsection{Columbia University}
 \descript{MPA - Development Practice}
-\location{Expected May 2017 | New York, NY \\ Cum. GPA: 4.1}
+\location{Expected May 2017 | New York, NY }
+% \location{May 2017 | New York, NY | GPA: 4.1 / 4.0}
+Conc. in Statistical Program Evaluation \\
+Cumulative GPA: 4.1 / 4.0
 \sectionsep
 
 \subsection{Dartmouth College}
-\descript{BA in Government; Engineering}
+\descript{Bachelor of Arts w/ Honors}
 \location{June 2009 | Hanover, NH}
-Conc. in Software Engineering \\
-College of Engineering \\
-Dean's List (All Semesters) \\
-\location{ Cum. GPA: 3.92 / 4.0 \\
-Major GPA: 3.94 / 4.0}
+International Relations \& Engineering \\
+Honors Awarded for Research Excellence \\
+%  \location{ Cum. GPA: 3.5 / 4.0, \\
+%  Major GPA: 3.8 / 4.0}
 \sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Links} 
-Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
-\sectionsep
+%  \section{Coursework}
+% % \subsection{Graduate}
+%  Analysis of quasi-experimental data \\
+%  Bayesian analysis \\
 
-\subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
+% \sectionsep
+
+% \subsection{Undergraduate}
+% Computer Graphics + Practicum \\
+% {\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
+% Unix Tools and Scripting \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -140,14 +67,42 @@ Unix Tools and Scripting \\
 
 \section{Skills}
 \subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+\location{Advanced}
+Stata \textbullet{} Responsive HTML \& CSS \textbullet{} Crystal Ball \textbullet{} Solver \textbullet{} Open Data Kit \\ 
+\vspace{1mm}
+\location{Proficient}
+R \textbullet{} Python for Data Science \textbullet{} Stan for Bayesian Analysis \textbullet{} Javascript \textbullet{} Java \textbullet{} Git \textbullet{} NVivo \textbullet{} Tableau \textbullet{} LaTeX \\
+\vspace{1mm}
+\location{Familiar}
+SQL \textbullet{} GIS \textbullet{} Ruby on Rails
 \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards \& Activities}
+\location{Gold Medal Congressional Award}
+America’s Highest Civilian Youth Award, conferred for exemplary accomplishments in community development \\
+\vspace{1mm}
+\location{PepsiCo Ambassador}
+Of 70,000+, named top 75 most promising employee for exclusive leadership program \\
+\vspace{1mm}
+\location{Startupbootcamp Berlin}
+Advising Europe’s most promising startups on social impact, analytics, growth strategy, and business development \\
+\vspace{1mm}
+\location{PepsiCo Conn3ct Tech Union} President of Millennial Employee Group\\
+\vspace{1mm}
+\location{Dartmouth Student Assembly} President of Student Organizations
+% Selected into exclusive program as one of the 75 (of 70,000) most promising North American employees combining knowledge of PepsiCo brands and functions, enthusiasm, and natural ability as an influencer and communicator
+\sectionsep
+
+\section{Skills \& Interests}
+% \location{Effective Altruism Expertise} Data-driven international development, artificial intelligence, overcoming cognitive bias, \& animal welfare training \\
+\vspace{1mm}
+\location{International Experience} Worked in 5 countries spanning 3 continents; have visited 40+ countries including fragile states \\
+\vspace{1mm}
+\location{Additional Interests} Junior Olympic medal winner in hockey; captain of nationally ranked tennis teams
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -168,74 +123,75 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \descript{| Director }
 % \descript{| Director of Marketing and Communications}
 % \descript{| Director of Communication }
-\location{2015 | Oxford, UK}
+\location{Apr 2015 - Nov 2015 | Oxford, UK}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
+\item Developed communication of NGO and development programs’ cost-benefit analysis outcomes and shortcomings 
+\item Presented concepts of data-driven development and built out materials for recommendations to academics, media, and the general public
+\item Managed international launches of The Most Good You Can Do and Doing Good Better, with placement of media in the New York Times, Time Magazine, TechCrunch, Tim Ferriss show, the Guardian, Nature, \& Gates Foundation blog
+\item Secured six pro bono partners providing key services across CEA projects with a first-year counterfactual incremental value of +225\% growth in conversions on each of CEA’s main web properties 
 \end{tightemize}
 \sectionsep
 
 \runsubsection{Freelance Web Developer}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
+\descript{| WordPress and Web }
+\location{Aug 2014 – Apr 2015 | New York, NY}
 \begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.
-\item Created a backbone.js-like framework for the Captions editor.
+\item Established \& managed web presences for start-ups \& web magazines 
 \end{tightemize}
 \sectionsep
 
 \runsubsection{ItsPlatonic}
 % \descript{| Chief Executive Officer }
 \descript{| Senior Front-End Developer }
-\location{May 2013 – Aug 2013 | Berlin, DE}
+% \location{May 2013 – Aug 2013 | Berlin, DE}
 % \location{May 2013 – Aug 2013 | New York, NY}
+ \location{Jun 2011 – Aug 2014 | Berlin, DE \& New York, NY}
 \begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.
-\item Created a backbone.js-like framework for the Captions editor.
+\item Established ItsPlatonic as a for-profit social impact enterprise to help connect socially isolated and stigmatized people
+\item Raised seed \& angel investment and participated in highly competitive Startupbootcamp accelerator program in Berlin
+\item Worked with world renowned tech executives and recruited several to serve on the ItsPlatonic advisory board
+\item Presented at Berlin Demo Day, selective London \& Silicon Valley Demo Days to thousands of investors and executives
+\item Constructed robust site with diverse, breakthrough technical requirements and recruited and managed team and operations
+
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+\runsubsection{PepsiCo Inc.}
+\descript{| Brand Management Associate}
+\location{Aug 2010 – Jun 2011 | Chicago, IL}
 \begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.
-\item I created the Meme generator and more in PHP and Shell.
-\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.
+\item Built new model for Aunt Jemima brand revenue that outperformed existing finance team’s models for every month
+\item Drove long-term strategic vision \& day-to-day management of Aunt Jemima, with total P\&L responsibility, to successfully deliver against growth objectives; secured \$1M additional annual revenue with new customer in first week
+\item Developed plans for Rice-A-Roni product innovations and led cross-functional team from concept to on-shelf execution
+\item Initiated, managed and executed quantitative \& in-home consumer study
+\item Led 30 person senior team in 10 week concept-to-shelf, 10 product international commercialization project
+
 \end{tightemize}
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\runsubsection{PepsiCo Inc.}
+\descript{| Marketing Analyst}
+\location{Jun 2009 – Aug 2010 | Chicago, IL}
+\begin{tightemize}
+\item Directed strategic planning across Quaker’s digital properties: website, search, display, newsletter, social, \& analytics
+\item Managed 7 digital agencies and coordinated digital media development projects to drive brand growth and awareness
+\item Planned, allocated, and managed the Quaker advertising and analytics budget
+\item Led period operating reviews and weekly analytics for the Quaker business unit
+\item Identified the intersection of consumer target needs and Rice-A-Roni brand equities to establish a unique brand positioning
 
-\section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Researcher}
-\location{Jan 2014 – Jan 2015 | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
+\end{tightemize}
 \sectionsep
 
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Awards} 
-\begin{tabular}{rll}
-2006	     & Winner  & Gold Medal Congressional Award \\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-
-\end{tabular}
-\sectionsep
-
+% \runsubsection{US House of Representatives}
+% \descript{| International Affairs Analyst}
+% \location{Jun 2009 – Aug 2010 | Chicago, IL}
+% \begin{tightemize}
+% \item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.
+% \item I created the Meme generator and more in PHP and Shell.
+% \item Led a team from MIT, Cornell, IC London and UHelsinki for the project.
+% \end{tightemize}
+% \sectionsep
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
