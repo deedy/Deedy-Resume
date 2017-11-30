@@ -1,0 +1,62 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - Cover Letter Template
+% LaTeX Template
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-cover-letter-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\rfoot{Page \thepage \hspace{1pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Anthony}{Attard}{ \urlstyle{same}\href{http://anthonyattard.com}{anthonyattard.com} | \href{mailto:anthony@anthonyattard.com}{anthony@anthonyattard.com} | 619.278.1989
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     MAIN COVER LETTER CONTENT
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hfill
+
+\begin{minipage}[t]{0.5\textwidth} 
+\companyname{Company Recruitment Team}
+\companyaddress{
+Advance Technologies \\
+8374 Crimson Street \\
+New York, NY 10125
+}
+\end{minipage}
+\begin{minipage}[t]{0.49\textwidth} 
+\currentdate{\today}
+\end{minipage}
+
+\lettercontent{Dear Recruiter,}
+
+\lettercontent{Curabitur quis purus nec neque finibus convallis eget ac augue. Maecenas ut feugiat purus. Mauris mattis turpis sed neque porttitor feugiat. Duis vitae tellus vel dui auctor vestibulum. Phasellus in egestas libero, et vehicula turpis. Vivamus rhoncus blandit purus, ac tincidunt quam pretium vel. Nulla turpis lacus, interdum a magna tincidunt, accumsan maximus lorem.}
+
+\lettercontent{Aenean egestas sem vehicula turpis mattis, et convallis purus porttitor. Morbi sollicitudin elementum nunc, eu dignissim diam vehicula id. Mauris sed placerat leo, eu semper magna. Donec et blandit odio. Proin a justo tristique, euismod sapien volutpat, porttitor erat. Integer fermentum rhoncus velit, eu semper velit sagittis non. Sed aliquam tellus porttitor, dictum lacus in, semper nunc.}
+
+\lettercontent{Duis ultrices sem id lectus ultrices egestas. Ut non eleifend tortor, ac pretium mauris. Morbi consectetur pretium sollicitudin. Aliquam congue posuere libero, nec faucibus justo ullamcorper in. Aliquam dui quam, finibus eget justo in, scelerisque consectetur est. Nunc ultricies molestie leo rutrum dignissim. Suspendisse dapibus id libero elementum lobortis.}
+
+\lettercontent{Sed auctor, enim sit amet consectetur ultricies, lectus nulla ultrices nisi, ut tristique lectus sapien a quam. Nunc et cursus ligula. Etiam in volutpat lacus, non hendrerit massa. Aliquam erat volutpat. Duis ligula nisi, finibus id cursus sed, efficitur in est. Cras nec accumsan turpis. Pellentesque eu lobortis urna. Aliquam pulvinar non lacus quis imperdiet. Nunc tincidunt tellus bibendum accumsan laoreet.}
+
+\lettercontent{Proin blandit, sapien vitae lacinia consequat, justo lorem pretium leo, ut commodo libero augue in neque. Curabitur facilisis, tellus nec sodales ultricies, sem mi pulvinar purus, et accumsan mauris metus vitae lectus. In non risus id nunc mollis consequat. Mauris et euismod neque.}
+
+\closing{Sincerely,\\ \vspace{.1cm} \includegraphics[width=4cm]{signature} \vspace{-1cm} }
+
+\signature{Anthony Andrew Attard}
+
+\end{document}  
+\documentclass[]{article}
