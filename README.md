@@ -1,7 +1,7 @@
 Deedy-Resume
 =========================
 
-A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
+A **one-page**, **two asymmetric column** resume and cover letter template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
 As of **v1.2**, there is an option to choose from two templates:
 
 1. **MacFonts** - uses fonts native to OSX - *Helvetica*, *Helvetica Neue* (and it's Light and Ultralight versions) and the CJK fonts *Heiti SC*, and *Heiti TC*. The EULA of these fonts prevents distribution on Open Source.
@@ -19,9 +19,10 @@ This template attempts to **look clean**, highlight **details**, be a **single p
 
 ### OpenFonts
 ![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/sample-image.png)
-
+![alt tag](https://raw.githubusercontent.com/anthonyattard/Deedy-Resume/master/OpenFonts/sample-image-cover-letter.png)
 ### MacFonts
 ![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/MacFonts/sample-image.png)
+![alt tag](https://raw.githubusercontent.com/anthonyattard/Deedy-Resume/master/MacFonts/sample-image-cover-letter.png)
 
 ## Dependencies
 
