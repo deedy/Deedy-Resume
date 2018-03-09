@@ -1,0 +1,242 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% VERSION INFORMATION
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% CREDITS TO ORIGINAL AUTHOR
+% Original author: Debarghya Das (http://debarghyadas.com)
+% Original repository: https://github.com/deedydas/Deedy-Resume
+%
+% NOTES
+% Formatting for creating a subscript
+% {\footnotesize \textit{\textbf{(Teaching Asst)}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+%\rfoot{Page \thepage \hspace{1pt}}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LAST UPDATED DATE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{Sarah C. Bland}{
+% // NOTE: Add personal website link.
+%\urlstyle{same}\url{http://debarghyadas.com}\\
+\href{mailto:scb4ga@virginia.edu}{scb4ga@virginia.edu} | 804.432.4009
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.33\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+
+\subsection{University of Virginia}
+\descript{BA in Computer Science}
+\descript{BA in Environmental Sciences}
+\location{Exp. May 2019 | Charlottesville, VA
+\\College of Arts and Sciences
+\\Cum. GPA: 3.12 / 4.0}
+\sectionsep
+
+%MORE INFORMATION
+%\descript{BA in Computer Science}
+%\location{Major GPA: / 4.0}
+%\sectionsep
+
+%\descript{BA in Environmental Sciences}
+%\location{Major GPA: / 4.0}
+%\sectionsep
+
+\subsection{Math \& Sci. High School}
+\location{Grad. May 2015 | Midlothian, VA}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Links}
+Github:// \href{https://github.com/sarahbland7}{\custombold{sarahbland7}} \\
+LinkedIn://  \href{https://linkedin.com/in/sarahcbland}{\custombold{sarahcbland}} \\
+Facebook://  \href{https://www.facebook.com/sarahchristinebland}{\custombold{sarahchristinebland}} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Coursework}
+
+%\subsection{Undergraduate}
+Algorithms* \\
+%Calculus 1 \& 2
+Computer Architecture \\
+Defense Against the Dark Arts \\
+Discrete Mathematics \\
+Human Computer Interaction \\
+%Linear Algebra \\
+Mobile Application Development \\
+Program \& Data Representation \\
+Software Development Methods* \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Language Skills}
+\subsection{Programming}
+\descript{Proficient}
+Java \textbullet{} Swift \textbullet{} Android \textbullet{} Matlab
+\\
+\descript{Skilled}
+Python \textbullet{} C++ \textbullet{} C \textbullet{} Intel x86 Assembly \textbullet{} Intel x86 Machine Code
+\\
+\descript{Familiar}
+HTML \textbullet{} CSS \textbullet{} JavaScript \textbullet{} React
+\\Node \textbullet{} Express \textbullet{} Firebase
+\\MongoDB \textbullet{} Solidity \textbullet{} D3
+\\Mathematica
+\sectionsep
+\\
+
+\subsection{Technologies}
+\LaTeX\ \textbullet{} git \textbullet{} shell scripting
+\sectionsep
+\\
+
+\subsection{Verbal \& Written}
+English (native speaker) \textbullet{} Spanish
+\\(8 yrs. of classroom experience)
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Awards}
+\runsubsection{}
+\descript{Louis T. Rader Education}
+\location{May 2017 | Charlottesville, VA}
+%This award recognizes "undergraduates who demonstrate outstanding leadership and promise in education, research, and service."
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experience}
+
+\runsubsection{Hacker Fellows}
+\descript{| Software Engineering Intern}
+\location{Expected June 2018 – August 2018 | Detroit, MI}
+\vspace{\topsep} %Hack-y fix for awkward extra vertical space
+\begin{tightemize}
+\item 1 of 10 computer scientists hired for SWE at early stage tech companies
+\item Includes intensive software development and entrepreneurship training
+\end{tightemize}
+\sectionsep
+
+\runsubsection{The Impact Fellowship}
+\descript{| Fellow}
+\location{January 2018 | New York, NY}
+\begin{tightemize}
+\item Selective computer programming fellowship to equip and inspire the next generation of social entrepreneurs
+\item Met leaders from NYC tech scene, NGOs, social startups, think tanks, etc.
+\item Collaborated with international charity organization \textbf{\href{https://www.daysforgirls.org}{Days for Girls}} to build {\href{http://gotperiod.surge.sh}{"Got Period?"}}, a gamified education tool for reproductive health
+\end{tightemize}
+\sectionsep
+
+\runsubsection{School of Engineering \& Applied Sci.}
+\descript{| Secondary Instr.}
+\location{June 2017 – Present | Charlottesville, VA}
+\begin{tightemize}
+\item Redesigned Software Development Methods Java-based lab component
+\item Collaborated with 3 professors to lead team of 50 teaching assistants
+\end{tightemize}
+\sectionsep
+
+\runsubsection{School of Engineering \& Applied Sci.}
+\descript{| Teaching Assistant}
+\location{January 2017 – Present | Charlottesville, VA}
+\begin{tightemize}
+\item Taught both Software Development Methods \& Algorithms
+\item Assisted with in-lecture activities, labs, office hours, and review sessions
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Chicago Urban Program}
+\descript{| Intern }
+\location{June 2017 – August 2017 | Chicago, IL}
+\begin{tightemize}
+\item Worked with Friends of the Parks to preserve and promote urban green spaces
+\item Increased functionality and visual appeal of \href{https://fotp.org}{FOTP's website}
+\item Engaged with injustices in education, incarceration, trafficking, and immigration
+%Engaged with injustices in education, incarceration, gender & sexuality, race & ethnicity, trafficking, immigration, etc.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Housing and Residence Life}
+\descript{| Resident Advisor}
+\location{August 2016 – May 2017 | Charlottesville, VA}
+\begin{tightemize}
+\item Spearheaded movement to improve sustainability in Hereford Residential College, funded by \$900 GIFT Grant
+\item Executed programs to develop HRL Core Values on hall and community scales
+\item Served as advisor to 28 undergraduate women through personal relationships
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Research}
+\runsubsection{Dept. of Environmental Sci.}
+\descript{| Research Assistant}
+\location{September 2016 – May 2017 | Charlottesville, VA}
+\begin{tightemize}
+\item NSF sponsored {\href{https://github.com/sarahbland7/NSF-WUE}{water use efficiency (WUE) project}} with \textbf{\href{https://www.evsc.virginia.edu/scanlon-todd/}{Prof. Todd Scanlon}}
+%and\textbf{\href{https://www.evsc.virginia.edu/epstein-howard-e/}{Prof. Epstein}}
+\item Utilized Matlab to analyze Excel files and generate models of data across 6 sites
+%Collected tree cores and soil samples in Shenandoah National Park
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% INVOLVEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Involvements}
+\begin{tabular}{rll}
+2017-2018 & John D. Perkins House & Charlottesville, VA
+\\2017-2018 & Association for Computing Machinery & Charlottesville, VA
+\\2017 & Pearl Hacks & Chapel Hill, NC
+\\2016 & HackNC & Chapel Hill, NC
+%\\2016 & Hack.UVA & Charlottesville, VA
+\\2016-2017 & Women's Ultimate Frisbee & Charlottesville, VA
+\\2015-2018 & Chi Alpha \& InterVarsity  Fellowships & Charlottesville, VA
+\end{tabular}
+\sectionsep
+
+\end{minipage}
+\end{document}
+\documentclass[]{article}
+
