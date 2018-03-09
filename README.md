@@ -8,7 +8,7 @@ I am a 3rd year undergraduate student at the University of Virginia. My academic
 This repo is intended to hold my most recent personal resumé. All credits for original authorship go to Debarghya Das.
 
 ### OpenFonts
-![alt tag](https://raw.githubusercontent.com/sarahbland7/personalResume/master/OpenFonts/sample-image.png)
+![alt tag](https://github.com/sarahbland7/personalResume/blob/Changes/OpenFonts/sample-image.png)
 
 ## Preview
 
