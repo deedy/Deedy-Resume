@@ -1,5 +1,26 @@
-Deedy-Resume
+personalResume
 =========================
+
+## Introduction
+
+I am a 3rd year undergraduate student at the University of Virginia. My academics are STEM oriented (double major in Computer Science and Environmental Sciences) with a trajectory towards software development; I care deeply about public service in my personal life.
+
+This repo is intended to hold my most recent personal resumé. All credits for original authorship go to Debarghya Das.
+
+### OpenFonts
+![alt tag](https://github.com/sarahbland7/personalResume/blob/Changes/OpenFonts/sample-image.png)
+
+## Preview
+
+### OpenFonts
+![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/sample-image.png)
+
+### MacFonts
+![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/MacFonts/sample-image.png)
+
+## Details
+
+// CREDITS to Debarghya Das.
 
 A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
 As of **v1.2**, there is an option to choose from two templates:
@@ -11,55 +32,27 @@ It is licensed under the Apache License 2.0.
 
 ## Motivation
 
+// CREDITS to Debarghya Das.
+
 Common LaTeX resume-builders such as [**moderncv**](http://www.latextemplates.com/template/moderncv-cv-and-cover-letter)  and the [**friggeri-cv**](https://github.com/afriggeri/cv) look great if you're looking for a multi-page resume with numerous citations, but usually imperfect for making a thorough, single-page one. A lot of companies today search resumes based on [keywords](http://www.businessinsider.com/most-big-companies-have-a-tracking-system-that-scans-your-resume-for-keywords-2012-1) but at the same time require/prefer a one-page resume, especially for undergraduates. 
 
 This template attempts to **look clean**, highlight **details**, be a **single page**, and allow useful **LaTeX templating**.
 
-## Preview
-
-### OpenFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/sample-image.png)
-
-### MacFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/MacFonts/sample-image.png)
-
 ## Dependencies
+
+// CREDITS to Debarghya Das.
 
 1. Compiles only with **XeTeX** and required **BibTex** for compiling publications and the .bib filetype.
 2. Uses fonts that are usually only available to **Mac** users such as Helvetica Neue Light.
 
 ## Availability
 
+// CREDITS to Debarghya Das.
+
 1. MacFonts version - [as an online preview](http://debarghyadas.com/resume/debarghya-das-resume.pdf) and [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/MacFonts/deedy_resume.pdf)
 2. OpenFonts version - [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/OpenFonts/deedy_resume-openfont.pdf)
 3. **Overleaf**.com (formerly **WriteLatex**.com) (v1 fonts/colors changed) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
 4. **ShareLatex**.com (v1 fonts changes) - [compilable online](https://www.sharelatex.com/templates/cv-or-resume/deedy-resume)
-
-## Changelog
-### v1.2
- 1. Added publications in place of societies.
- 2. Collapsed a portion of education.
- 3. Fixed a bug with alignment of overflowing long last updated dates on the top right. 
-
-### v1.1
- 1. Fixed several compilation bugs with \renewcommand
- 2. Got Open-source fonts (Windows/Linux support)
- 3. Added Last Updated
- 4. Moved Title styling into .sty
- 5. Commented .sty file.
-
-## TODO
-1. Merge OpenFont and MacFonts as a single sty with options.
-2. Figure out a smoother way for the document to flow onto the next page.
-3. Add styling information for a "Projects/Hacks" section.
-4. Add location/address information
-5. Fix the hacky 'References' omission outside the .cls file in the MacFonts version.
-6. Add various styling and section options and allow for multiple pages smoothly.
-
-## Known Issues:
-1. Overflows onto second page if any column's contents are more than the vertical limit
-2. Hacky space on the first bullet point on the second column.
-3. Hacky redefinition of \refname to omit 'References' text for publications in the MacFonts version.
 
 ## License
     Copyright 2014 Debarghya Das
