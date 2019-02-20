@@ -14,7 +14,7 @@
 
 % Publications
 \usepackage{cite}
-\renewcommand\refname{\vskip -1.5cm}
+\renewcommand{\refname}{PUBLICATIONS}
 
 % Color definitions
 \usepackage[usenames,dvipsnames]{xcolor} 
