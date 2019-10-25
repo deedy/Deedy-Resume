@@ -15,14 +15,6 @@ Common LaTeX resume-builders such as [**moderncv**](http://www.latextemplates.co
 
 This template attempts to **look clean**, highlight **details**, be a **single page**, and allow useful **LaTeX templating**.
 
-## Preview
-
-### OpenFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/sample-image.png)
-
-### MacFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/MacFonts/sample-image.png)
-
 ## Dependencies
 
 1. Compiles only with **XeTeX** and required **BibTex** for compiling publications and the .bib filetype.

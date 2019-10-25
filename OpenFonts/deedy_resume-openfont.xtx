@@ -65,8 +65,8 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Debarghya}{Das}{ \urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
-\href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
+\namesection{Pranab}{Singh}
+\href{mailto:pranabb.singh@gmail.com}{pranabb.singh@gmail.com} | 891-085-1148
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -83,22 +83,15 @@
 
 \section{Education} 
 
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Dec 2014 | Ithaca, NY}
+\subsection{MEGHNAD SAHA INSTITUTE OF TECHNOLOGY}
+\descript{Bachelor in Computer Application}
+\location{June 2020 | Kolkata, India}
+\location{ Cum. GPA: 8.2 / 10} \\
 \sectionsep
 
-\subsection{Cornell University}
-\descript{BS in Computer Science}
-\location{May 2014 | Ithaca, NY}
-College of Engineering \\
-Magna Cum Laude\\
-\location{ Cum. GPA: 3.83 / 4.0 \\
-Major GPA: 3.9 / 4.0}
-\sectionsep
-
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
+\subsection{Calcutta Public School}
+\descript{High School}
+\location{Grad. May 2016|  Kolkata, India}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -106,37 +99,23 @@ Major GPA: 3.9 / 4.0}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
+Github:// \href{https://github.com/pranabs1ngh}{\bf pranabs1ngh} \\
+LinkedIn://  \href{https://www.linkedin.com/in/pranabs1ngh}{\bf pranabs1ngh} \\
+Twitter://  \href{https://twitter.com/pranabs1ngh}{\bf @pranabs1ngh} \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
-\sectionsep
-
 \subsection{Undergraduate}
-Information Retrieval \\
+Design and Analysis of Algorithms \\
+Data Structures with C \\
+Database Management Systems \\
+Computer Architecture and Systems Software \\
 Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
+Computer Graphics \\
+Unix and Shell Scripting \\
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
@@ -144,13 +123,16 @@ Unix Tools and Scripting \\
 
 \section{Skills}
 \subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+\location{Strongest Areas:}
+Database \textbullet{} Algorithms \\
+Server Side Programming \\
+\location{Languages:}
+C \textbullet{} C++ \textbullet{} Python \textbullet{} HTML \textbullet{} CSS \\
+JavaScript \\
+\location{Tools / Framework:}
+NodeJs \textbullet{} django \textbullet{} ReactJs \textbullet{} Redux \\
+Docker \textbullet{} Kubernetes \textbullet{} React Native \\
+MySQL \textbullet{} MongoDB \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -164,54 +146,71 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 \begin{minipage}[t]{0.66\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EXPERIENCE
+%     Projects
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Experience}
-\runsubsection{Facebook}
-\descript{| Software Engineer }
-\location{Jan 2015 - Present | New York, NY}
-\sectionsep
+\section{Projects}
 
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{June 2014 – Sep 2014 | Mountain View, CA}
+\runsubsection{Flock}
+\descript{| Full Fledged Native Messaging Application }
+\location{Sept 2019 - Present}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
+\begin{tightemize}
+\item Developed all screens with React Native based on reusable components architecture
+\item Implemented peer to peer instant messaging using web sockets protocol
+\item Implemented group messaging feature
+\item Implemented Audio and Video Call using WebRTC
+\item Wrote server using micro-services architecture
+\item Created server and micro-services in Docker based containers
+\item Implemented load balancer using Kubernetes (for multiple server instance)
+\item Created a basic messaging queue from scratch
+\item Implemented MQ and Authentication service using serverless functions (AWS Lambda or Google Cloud Functions)
+\item Enabled end-to-end encryption using RSA encryption method
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Google}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
+\runsubsection{Quivia}
+\descript{| Quiz Game with over 100,000 questions }
+\location{July 2019 – Aug 2019}
 \begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.\item Created a backbone.js-like framework for the Captions editor.\end{tightemize}
+\item An user can sign up / sign in using local authentication or via google or facebook OAuth.
+\item Clicking on a game matches two idle players if present (anywhere in the world) for the same game, else it sends a bot to play with.
+
+\item Developed all screens using React
+\item Wrote Screen Update logic based on current game state
+\item Implemented user authentication using google/facebook OAuth or local authentication
+\item Wrote the algorithm to maintain socket rooms and match players for a game with specific id
+\item Developed a simple bot to play with the user in case the server can't find an opponent to play with
+\end{tightemize}
 \sectionsep
 
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+\runsubsection{Sudoku Saga}
+\descript{| Native Sudoku Application }
+\location{Sept 2019 – Oct 2019}
 \begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
+\item Wrote a backtracking algorithm from scratch to generate a sudoku board
+\item Hid number of cells based on difficulty level selected by user
+\item Implemented undo / erase / pencil / hint features from scratch
+\item Created a fully functional native app in React Native
+\item Built with reusable components based on React App Architecture
+\end{tightemize}
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\runsubsection{Nagini}
+\descript{| The classic snake game with cool colors}
+\location{Sept 2019}
+\begin{tightemize}
+\item An user can play the game by directly opening the URL
+\item The game is playable by either the arrow keys or 'W', 'A', 'S', 'D'.
+\item The user has an option to sign in.
+\item When signed in the user's scores are uploaded to the server.
+\item All high scores can be seen from the results page.
 
-\section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Researcher}
-\location{Jan 2014 – Jan 2015 | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
-\sectionsep
-
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
+\item Implemented the game logic from scratch in JavaScript
+\item Created all screens using React
+\item Implemented screen updates using React life-cycle methods
+\item Created API to store high scores and user data in NODE
+\end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -220,24 +219,11 @@ Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-
 
 \section{Awards} 
 \begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
+2014	   & top 52/2500  & KPCB Engineering Fellow\\
+2014	   & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+2013	   & National  & Jump Trading Challenge Finalist\\
 2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
 2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
 2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
 \end{tabular}
 \sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Publications} 
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
-
-\end{minipage} 
-\end{document}  \documentclass[]{article}
