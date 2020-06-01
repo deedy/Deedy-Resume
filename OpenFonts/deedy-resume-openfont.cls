@@ -25,8 +25,9 @@
 
 % Set main fonts
 \usepackage{fontspec}
+\defaultfontfeatures{WordSpace={1.1}}
 \setmainfont[Color=primary, Path = fonts/lato/,BoldItalicFont=Lato-RegIta,BoldFont=Lato-Reg,ItalicFont=Lato-LigIta]{Lato-Lig}
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight}
+\setsansfont[Scale=MatchLowercase,Ligatures=TeX, Path = fonts/raleway/]{Raleway-ExtraLight}
 
 % Date command
 \usepackage[absolute]{textpos}
