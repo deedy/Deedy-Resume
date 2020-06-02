@@ -16,7 +16,7 @@
 \usepackage[absolute]{textpos}
 \usepackage[UKenglish]{babel}
 \usepackage[UKenglish]{isodate}
-\usepackage{fontspec,xltxtra,xunicode}
+\usepackage{fontspec}
 
 % Cite publications
 \usepackage{cite}
@@ -29,9 +29,9 @@
 \definecolor{subheadings}{HTML}{333333}
 
 % Set main fonts
-\defaultfontfeatures{Mapping=tex-text}
+\defaultfontfeatures{WordSpace={1.1}}
 \setmainfont[Color=primary]{Helvetica Light}
-\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Helvetica Neue UltraLight}
+\setsansfont[Scale=MatchLowercase,Ligatures=TeX]{Helvetica Neue UltraLight}
 
 % Date command
 \setlength{\TPHorizModule}{1mm}

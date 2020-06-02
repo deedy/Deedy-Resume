@@ -1,7 +1,7 @@
 Deedy-Resume
 =========================
 
-A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
+A **one-page**, **two asymmetric column** resume template in **LuaLaTeX** that caters particularly to an **undergraduate Computer Science** student.
 As of **v1.2**, there is an option to choose from two templates:
 
 1. **MacFonts** - uses fonts native to OSX - *Helvetica*, *Helvetica Neue* (and it's Light and Ultralight versions) and the CJK fonts *Heiti SC*, and *Heiti TC*. The EULA of these fonts prevents distribution on Open Source.
@@ -25,7 +25,7 @@ This template attempts to **look clean**, highlight **details**, be a **single p
 
 ## Dependencies
 
-1. Compiles only with **XeTeX** and required **BibTex** for compiling publications and the .bib filetype.
+1. Compiles with **LuaLaTeX** and required **BibTex** for compiling publications and the .bib filetype. Can also be compiled with **XeTeX**, but **LuaLaTeX** is recommended.
 2. Uses fonts that are usually only available to **Mac** users such as Helvetica Neue Light.
 
 ## Availability
