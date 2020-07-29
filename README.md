@@ -1,4 +1,4 @@
-Deedy-Resume
+Deedy-Resume (New Dark Theme)
 =========================
 
 A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
@@ -18,10 +18,13 @@ This template attempts to **look clean**, highlight **details**, be a **single p
 ## Preview
 
 ### OpenFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/sample-image.png)
+![alt tag](https://raw.githubusercontent.com/il3ven/Deedy-Resume/master/OpenFonts/sample-image.png)
+
+### OpenFonts
+<img src="https://raw.githubusercontent.com/il3ven/Deedy-Resume/master/OpenFonts/sample-image-dark.png" width="587px" height="736px">
 
 ### MacFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/MacFonts/sample-image.png)
+![alt tag](https://raw.githubusercontent.com/il3ven/Deedy-Resume/master/MacFonts/sample-image.png)
 
 ## Dependencies
 
