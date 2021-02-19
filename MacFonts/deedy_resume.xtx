@@ -47,11 +47,29 @@
 
 \documentclass[]{deedy-resume}
 \usepackage{fancyhdr}
+\usepackage{wasysym}
+\usepackage{hyperref}
+\usepackage{graphicx}
  
 \pagestyle{fancy}
 \fancyhf{}
  
 \rfoot{Page \thepage \hspace{1pt}}
+
+\ifxetex
+  \usepackage{letltxmacro}
+  \setlength{\XeTeXLinkMargin}{1pt}
+  \LetLtxMacro\SavedIncludeGraphics\includegraphics
+  \def\includegraphics#1#{% #1 catches optional stuff (star/opt. arg.)
+    \IncludeGraphicsAux{#1}%
+  }%
+  \newcommand*{\IncludeGraphicsAux}[2]{%
+    \XeTeXLinkBox{%
+      \SavedIncludeGraphics#1{#2}%
+    }%
+  }%
+\fi
+
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
